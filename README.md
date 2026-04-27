@@ -71,8 +71,8 @@ where `L_image→text = CrossEntropy(τ · I · Tᵀ, labels)` and labels are th
 |---|---|
 | Dataset | CC3M (~2.9M pairs) |
 | Epochs | 15 |
-| Batch size per GPU | 128 |
-| Effective batch size | 512 (128 × 2 GPUs × 2 accumulation steps) |
+| Batch size per GPU | 160 |
+| Effective batch size | 640 (160 × 2 GPUs × 2 accumulation steps) |
 | Optimizer | AdamW |
 | Learning rate | 1e-3 |
 | β1, β2 | 0.9, 0.98 |
