@@ -95,6 +95,11 @@ where `L_image→text = CrossEntropy(τ · I · Tᵀ, labels)` and labels are th
 
 ## Results
 
+## Losses and accuracy curve
+
+![Losses and Zero shot accuracy curve](losses.png)
+
+
 ### Zero-Shot Classification
 
 Zero-shot classification uses the model directly without any fine-tuning. Class names are encoded as text prompts (`"a photo of a {class}"`) and the image is matched to the closest class embedding by cosine similarity.
