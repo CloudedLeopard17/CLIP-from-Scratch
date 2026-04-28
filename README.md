@@ -79,7 +79,7 @@ where `L_image→text = CrossEntropy(τ · I · Tᵀ, labels)` and labels are th
 | Weight decay | 0.2 |
 | LR schedule | Cosine decay with linear warmup |
 | Warmup steps | 10% of total steps |
-| Min LR | 10% of peak LR |
+| Min LR | 5% of peak LR |
 | Gradient clipping | 1.0 |
 | Mixed precision | bf16 (torch.autocast) |
 | Hardware | 2× NVIDIA A5000 (24GB each) |
