@@ -95,7 +95,7 @@ where `L_image→text = CrossEntropy(τ · I · Tᵀ, labels)` and labels are th
 
 ## Results
 
-## Losses and accuracy curve
+## Losses and Accuracy curves
 
 ![Losses and Zero shot accuracy curve](losses.png)
 
