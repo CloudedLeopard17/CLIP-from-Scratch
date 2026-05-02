@@ -181,7 +181,7 @@ tensorboard    # for logging
 
 ### Training
 
-For single GPU use **clip.ipynb**
+For single GPU just run **clip_ddp.py**
 
 ```bash
 python -m torch.distributed.run --nproc_per_node=2   clip_ddp.py
